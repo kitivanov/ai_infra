@@ -29,12 +29,6 @@ RAG и MCP пока представлены конфигурациями без
 docker compose up --build
 ```
 
-Для локального запуска backend установите зависимости из `backend/requirements.txt`, настройте переменные окружения и выполните из `backend/`:
-
-```bash
-uvicorn app.main:app --reload
-```
-
 Основные переменные окружения: `DATABASE_URL`, `JWT_SECRET_KEY`, `ACCESS_TOKEN_EXPIRE_MINUTES`, `FRONTEND_ORIGIN`. Значения и общая инструкция - в корневом README.
 
 ## Документация API
